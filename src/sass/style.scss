@@ -2,6 +2,11 @@
 * {
     font-family: 'Museo', sans-serif;
 }    
-h1 {
-    color: aquamarine;
+.container {
+    max-width: 950px;
+    margin: 0 auto;
 }
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+
