@@ -202,13 +202,42 @@
 }
 @media (max-width: 991px) {
   .container {
-    max-width: 800px;
+    max-width: 710px;
   }
 
   .promo__header {
-    font-size: 37px;
+    font-size: 30px;
   }
   .promo__subheader {
-    font-size: 21px;
+    font-size: 17px;
+  }
+  .promo__wrapper {
+    margin-top: 80px;
+  }
+  .promo__icons {
+    margin-top: 50px;
+  }
+
+  .advantage__header {
+    font-size: 27px;
+  }
+  .advantage__item {
+    width: 219px;
+  }
+  .advantage__descr {
+    margin-top: 30px;
+    font-size: 13px;
+  }
+  .advantage__wrapper {
+    margin-top: 56px;
+  }
+  .advantage__descr-header {
+    margin-bottom: 20px;
+  }
+
+  .button_main {
+    margin-top: 45px;
+    width: 255px;
+    height: 45px;
   }
 }/*# sourceMappingURL=style.min.css.map */

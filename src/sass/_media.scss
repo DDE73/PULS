@@ -7,15 +7,45 @@
 
 @media (max-width:991px) {
     .container {
-        max-width: 800px;
+        max-width: 710px;
     }
     .promo {
         &__header {
-            font-size: 37px;
+            font-size: 30px;
         }
         &__subheader {
-            font-size: 21px;
+            font-size: 17px;
         }
+        &__wrapper {
+            margin-top: 80px;
+        }
+        &__icons {
+            margin-top: 50px;
+        }
+    }
+    .advantage {
+        &__header {
+            font-size: 27px;
+        }
+        &__item {
+            width: 219px;
+        }
+        &__descr {
+            margin-top: 30px;
+            font-size: 13px;
+        }
+        &__wrapper {
+            margin-top: 56px;
+        }
+        &__descr-header {
+            margin-bottom: 20px;
+        }
+
+    }
+    .button_main {
+        margin-top: 45px;
+        width: 255px;
+        height: 45px;
     }
 
 }
