@@ -193,4 +193,13 @@
   font-size: 18px;
   font-weight: 700;
   color: #0d0d0d;
+}
+
+@media (max-width: 991px) {
+  .promo__header {
+    font-size: 37px;
+  }
+  .promo__subheader {
+    font-size: 21px;
+  }
 }/*# sourceMappingURL=style.min.css.map */
