@@ -1,51 +1,20 @@
+@media (max-width:1199px) {
+    .container {
+        max-width: 900px;
+    }
+
+}
+
 @media (max-width:991px) {
+    .container {
+        max-width: 800px;
+    }
     .promo {
         &__header {
             font-size: 37px;
         }
         &__subheader {
             font-size: 21px;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            
         }
     }
 

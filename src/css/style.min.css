@@ -195,7 +195,16 @@
   color: #0d0d0d;
 }
 
+@media (max-width: 1199px) {
+  .container {
+    max-width: 900px;
+  }
+}
 @media (max-width: 991px) {
+  .container {
+    max-width: 800px;
+  }
+
   .promo__header {
     font-size: 37px;
   }
