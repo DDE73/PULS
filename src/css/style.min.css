@@ -240,4 +240,9 @@
     width: 255px;
     height: 45px;
   }
+}
+@media (max-width: 767px) {
+  .container {
+    max-width: 526px;
+  }
 }/*# sourceMappingURL=style.min.css.map */
