@@ -245,4 +245,44 @@
   .container {
     max-width: 526px;
   }
+
+  .promo__header {
+    font-size: 28px;
+  }
+  .promo__subheader {
+    font-size: 16px;
+  }
+  .promo__icons {
+    width: 390px;
+  }
+
+  .header__logo {
+    width: 256px;
+  }
+  .header__official {
+    font-size: 12px;
+  }
+  .header__official span {
+    font-size: 12px;
+  }
+  .header__phone {
+    font-size: 15px;
+  }
+  .header .button {
+    width: 135px;
+  }
+
+  .advantage__header {
+    font-size: 25px;
+  }
+  .advantage__item {
+    width: 209px;
+  }
+  .advantage__descr-header {
+    font-size: 14px;
+  }
+  .advantage__descr {
+    width: 160px;
+    font-size: 12px;
+  }
 }/*# sourceMappingURL=style.min.css.map */
