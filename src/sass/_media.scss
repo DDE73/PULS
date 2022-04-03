@@ -24,7 +24,7 @@
         }
     }
     .advantage {
-        &__header {
+        .title {
             font-size: 27px;
         }
         &__item {
@@ -82,7 +82,7 @@
         }
     }
     .advantage {
-        &__header {
+        .title {
             font-size: 25px;
         }
         &__item {
@@ -101,6 +101,6 @@
 
 @media (max-width:575px) {
     .container {
-        max-width: 526px;
+        max-width: 300px;
     }
 }
