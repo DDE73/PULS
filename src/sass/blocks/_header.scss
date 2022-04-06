@@ -35,5 +35,10 @@
         flex-direction: column;
         align-items: flex-end;
     }
-       
+    &__official {
+        &_viz {
+            display: none;
+        }
+        
+    } 
 }

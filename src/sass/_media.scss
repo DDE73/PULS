@@ -127,4 +127,79 @@
             text-align: center;
         }
     }
-}
+    .advantage {
+        .title {
+            font-size: 22px;
+        }
+        &__item {
+            width: 209px;
+        }
+        &__descr-header {
+            font-size: 16px;
+            margin: 15px 0 10px;
+        }
+        &__descr {
+            width: 240px;
+            font-size: 14px;
+            margin: 0 auto 25px;
+        }
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 30px;
+        }
+    }
+    .promo {
+        &__header {
+            font-size: 25px;
+        }
+        &__subheader {
+            font-size: 17px;
+            text-align: center;
+        }
+        &__wrapper {
+            margin-top: 60px;
+            align-items: center;
+
+        }
+        &__icon {
+            img {
+                margin: 28px 0 12px;
+            }
+        }
+        &__icons {
+            margin-top: 20px;
+            flex-direction: column;
+        }
+        .header {
+            &__logo {
+                width: 173px;
+            }
+            &__phone {
+                font-size: 12px;
+            }
+            &__official {
+                margin: 0;
+                &_inviz {
+                    display: none;
+                }
+                &_viz {
+                    display: block;
+                    margin: 0;
+                }
+            }            
+        }
+        .button {
+            width: 108px;
+            height: 19px;
+            font-size: 10px;
+            &_main {
+                width: 240px;
+                height: 40px;
+                font-size: 16px;
+            }
+
+        }
+
+    }
+}        
