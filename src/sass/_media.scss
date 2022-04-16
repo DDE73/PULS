@@ -9,6 +9,7 @@
     .container {
         max-width: 710px;
     }
+   
     .promo {
         &__header {
             font-size: 30px;
@@ -58,6 +59,14 @@
 @media (max-width:767px) {
     .container {
         max-width: 526px;
+    }
+    .carousel {
+        &__inner {
+            img {
+                width:33%
+            }
+    
+        }
     }
     .promo {
         &__header {
@@ -110,7 +119,7 @@
             font-size: 18px;
         }
     }
-
+  
 }
 
 @media (max-width:575px) {
