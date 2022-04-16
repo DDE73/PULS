@@ -2,8 +2,15 @@
     padding: 81px 0;
     &__inner {
         position: relative;
-        width: 750px;
+        display: block;
+        width: 100%;
         margin: 0px auto;
+        img {
+            display: block;
+            width: 100%;
+            margin: 0px auto;
+        }
+
 
     }
     .slick-prev, .slick-next {
@@ -20,14 +27,6 @@
         right:-66px;
        
     }
-    // .slick-next {
-    //     width: 31px;
-    //     height: 50px;
-       
-    // }
-    // 
-    // img {
-    //     display: block;
-    //     margin: 0px auto;
-    // }
+   
+ 
 }

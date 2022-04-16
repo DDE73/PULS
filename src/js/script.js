@@ -10,15 +10,16 @@ $(document).ready(function(){
             settings: {
               arrows:false,
               dots: true
+              
             }
           },
           {
             breakpoint: 768,
             settings: {
               arrows:false,
-              dots: true,
-              slidesToShow: 3,
-              slidesToScroll: 1
+              dots: true
+              // slidesToShow: 3,
+              // slidesToScroll: 1
              
             }
           },
@@ -26,9 +27,9 @@ $(document).ready(function(){
             breakpoint: 576,
             settings: {
               arrows:false,
-              dots: true,
-              slidesToShow: 3,
-              slidesToScroll: 1
+              dots: true
+              // slidesToShow: 3,
+              // slidesToScroll: 1
              
             }
           }

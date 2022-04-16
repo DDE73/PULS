@@ -1,13 +1,13 @@
 @media (max-width:1199px) {
     .container {
-        max-width: 900px;
+        // max-width: 900px;
     }
 
 }
 
 @media (max-width:991px) {
     .container {
-        max-width: 710px;
+        // max-width: 710px;
     }
    
     .promo {
@@ -58,16 +58,9 @@
 }
 @media (max-width:767px) {
     .container {
-        max-width: 526px;
+        // max-width: 526px;
     }
-    .carousel {
-        &__inner {
-            img {
-                width:33%
-            }
-    
-        }
-    }
+
     .promo {
         &__header {
             font-size: 28px;
@@ -76,7 +69,7 @@
             font-size: 16px;
         }
         &__icons {
-            width: 390px;
+            width: 100%;
         }
     }
     .header{
@@ -124,8 +117,9 @@
 
 @media (max-width:575px) {
     .container {
-        max-width: 300px;
+        // max-width: 300px;
     }
+    
     .consultation {
         .title_left {
             font-size: 18px;
