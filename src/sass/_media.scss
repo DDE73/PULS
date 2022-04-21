@@ -112,12 +112,46 @@
             font-size: 18px;
         }
     }
+    .catalog {
+        &__content {
+            justify-content: space-around;
+           
+        }
+        .title {
+            font-size: 25px;
+        }
+        &__tab {
+            width: 150px;
+            height: 45px;
+        }
+
+    }
+    
   
 }
 
 @media (max-width:575px) {
     .container {
         // max-width: 300px;
+    }
+    .catalog {
+        &__content {
+            justify-content: space-around;
+           
+        }
+        .title {
+            font-size: 25px;
+        }
+        &__tab {
+            width: 150px;
+            height: 45px;
+            &_active{
+                width: 150px;
+                height: 45px;
+            }
+           
+        }
+
     }
     
     .consultation {
