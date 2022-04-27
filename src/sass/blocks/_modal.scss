@@ -40,6 +40,16 @@
         &_thanks {
             min-height: 140px;
         }
+        .error {
+            border: 1px solid #eb0e0e;
+        }
+        label.error {
+            margin: 0 auto;
+            text-align: center;
+            margin-bottom: 15px;
+            border: none;
+        }
+        
     }
     #consultation,#order,#thanks {
         display: none;

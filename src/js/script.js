@@ -71,19 +71,72 @@ $(document).ready(function(){
         $('.overlay, #order').fadeIn('slow');
       });
     });
-    // VALIDATE
-    $('#consultation-form').validate();
-    $('#consultation form').validate({
-      rules: {
-        name: "required",
-        phone: "required",
-        email: {
-          required: true,
-          email:true
-        } 
-      }
-    });
-    $('#order form').validate();
+    // VALIDATEеstart validatign Forms by Jqwe
+    // $('#consultation-form').validate();
+    // $('#order form').validate();
+    // // 
+    // $('#consultation form').validate({
+    //   rules: {
+    //     name:  {
+    //       required: true,
+    //       minlength: 3
+    //     },
+    //     phone: "required",
+    //     email: {
+    //       required: true,
+    //       email:true
+    //     } 
+    //   },
+    //   messages: {
+    //     name:  {
+    //       required: "Введите имя to contact you",
+    //       minlength: jQuery.validator.format("Нужно не менее {0} символов!")
+    //     },
+    //     phone: {
+    //       required: "Введите телефон",
+    //       phone: "Телефон должен быть в формате +7 999 999 99 99"
+    //     },
+    //     email: {
+    //       required: "Введите эл. адрес",
+    //       email: "Адрес должен быть в формате name@domain.com"
+    //     }
+    //   }
+    // });
+    
+
+    const validForm =(form)=>{
+      $(form).validate({
+        rules: {
+          name:  {
+            required: true,
+            minlength: 3
+          },
+          phone: "required",
+          email: {
+            required: true,
+            email:true
+          } 
+        },
+        messages: {
+          name:  {
+            required: "Введите имя to contact you",
+            minlength: jQuery.validator.format("Нужно не менее {0} символов!")
+          },
+          phone: {
+            required: "Введите телефон",
+            phone: "Телефон должен быть в формате +7 999 999 99 99"
+          },
+          email: {
+            required: "Введите эл. адрес",
+            email: "Адрес должен быть в формате name@domain.com"
+          }
+        }
+      })
+
+    };
+    validForm('#consultation form');
+    validForm('#order form');
+    validForm('#consultation-form');
  
   });
 
