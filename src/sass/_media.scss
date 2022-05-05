@@ -253,7 +253,7 @@
                 height: 40px;
                 font-size: 16px;
             }
-
+          
         }
 
     }
@@ -329,5 +329,29 @@
             }
             
         }
-    }          
-}        
+    } 
+    .overlay {
+        .modal {
+            width: 220px;
+            padding: 10px 5px;
+            &__subtitle {
+                font-size: 15px;
+            } 
+            &__close {
+                right: -40px;
+            }       
+        }
+    }      
+    .feed-form {
+        width: 200px;
+        min-height: auto;
+  
+    }
+    .button_submit {
+        width: 200px;
+    }
+
+    
+
+
+}     

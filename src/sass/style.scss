@@ -1,3 +1,8 @@
+// @import 'libs/animate';
+// @import 'libs/bootstrap-reboot.min';
+// @import 'libs/fonts';
+// @import 'libs/slick';
+
 @import 'base/variables';
 @import 'base/animations';
 * {
@@ -8,9 +13,9 @@
     margin: 0 auto;
 }
 
-html {
-    // scroll-behavior: smooth;
-  }
+// html {
+//     scroll-behavior: smooth;
+//   }
 @import 'blocks/consultation';
 @import 'blocks/promo';
 @import 'blocks/header';
